@@ -32,16 +32,16 @@ class App extends Component {
     return !robots.length ? (
       <h1>Loading</h1>
     ) : (
-      <div className="tc">
-        <h1 className="f1">Robo Friends</h1>
-        <SearchBox searchChange={this.onSearchChange} />
-        <Scroll>
-          <ErrorBoundry>
-            <CardList robots={filteredRobots} />
-          </ErrorBoundry>
-        </Scroll>
-      </div>
-    );
+        <div className="tc">
+          <h1 className="f1">Robo Friends 2019</h1>
+          <SearchBox searchChange={this.onSearchChange} />
+          <Scroll>
+            <ErrorBoundry>
+              <CardList robots={filteredRobots} />
+            </ErrorBoundry>
+          </Scroll>
+        </div>
+      );
   }
 }
 
